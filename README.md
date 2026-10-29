@@ -1,2 +1,2 @@
-# Info-Wettkamp
-Informatik Arrays
+# IWartezimmer
+Informatik Queue

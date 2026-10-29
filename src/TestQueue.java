@@ -1,6 +1,6 @@
 public class TestQueue {
 
-    Queue test; 
+    Queue test;
 
     public TestQueue() {
         test = new Queue();
@@ -10,6 +10,7 @@ public class TestQueue {
         if (!test.isEmpty()) {
             System.out.println("Fehler1");
         }
+
         test.enqueue(new Patient("5", null));
         if (!test.front().getName().equals("5")) {
             System.out.println("Fehler2");
